@@ -22,4 +22,4 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ### How?
 
-Uses [markdown](github.com/gomarkdown/markdown) to parse the mardkown and [gopherjs](https://github.com/gopherjs/gopherjs) to then expose the function to the document's global scope.
+Uses [markdown](https://github.com/gomarkdown/markdown) to parse the mardkown and [gopherjs](https://github.com/gopherjs/gopherjs) to then expose the function to the document's global scope.
