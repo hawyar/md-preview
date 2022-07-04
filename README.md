@@ -1,4 +1,4 @@
-## Online  Markdown Parser
+## Online Markdown Parser
 
 Clone repo
 
@@ -12,10 +12,14 @@ Generate JavaScript code
 go generate
 ```
 
-Run locally
+Run
 
 ```bash
 npx serve public
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
+
+### How?
+
+Uses [markdown](github.com/gomarkdown/markdown) to parse the mardkown and [gopherjs](https://github.com/gopherjs/gopherjs) to then expose the function to the document's global scope.

@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	// pkgg to avoid name collision
+	// to avoid name collision
 	js.Global.Set("__custom_pkg__", map[string]interface{}{
 		"parseMarkdown": ParseMarkdown,
 	})
